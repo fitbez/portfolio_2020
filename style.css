@@ -67,6 +67,15 @@ a i {
   transform: 0.2s;
   color: #000;
 }
+.fill:hover .far,
+.fill .fas {
+  display: none;
+  transition: 2s ease-out;
+}
+.fill:hover .fas {
+  display: inline;
+  transition: 2s ease-out;
+}
 img {
   height: 150px;
   border-radius: 50%;
