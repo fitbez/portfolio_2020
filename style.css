@@ -57,8 +57,9 @@ body {
 .btn:hover::before {
   transform: scaleX(1);
 }
+
 /* About */
-a i {
+.about-back a i {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -76,7 +77,7 @@ a i {
   display: inline;
   transition: 2s ease-out;
 }
-img {
+.about-image img {
   height: 150px;
   border-radius: 50%;
   margin: 40px;
@@ -92,6 +93,7 @@ a {
   color: #000;
   text-align: center;
 }
+
 /* Skills */
 .skills {
   margin-top: 40px;
@@ -137,4 +139,77 @@ a {
 .container-skills a {
   text-decoration: none;
   text-align: center;
+}
+
+/* Portfolio */
+.portfolio {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 320px;
+  height: 191px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.front,
+.back {
+  width: 320px;
+  height: 191px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform 0.6s linear;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.front img {
+  height: 100%;
+}
+.front {
+  transform: perspective(600px) rotateY(0deg);
+}
+.back {
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content {
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+.sm {
+  margin: 20px 0;
+}
+.sm a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #2c3e50;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.sm a:hover {
+  background: #2c3e50;
+  color: white;
+}
+.card:hover > .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back {
+  transform: perspective(600px) rotateY(0deg);
 }
