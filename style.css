@@ -78,9 +78,14 @@ img {
   line-height: 1.5rem;
 }
 a {
-  text-decoration-style: none;
+  text-decoration-line: none;
+  color: #000;
+  text-align: center;
 }
 /* Skills */
+.skills {
+  margin-top: 40px;
+}
 .container-skills {
   width: 75%;
   height: 100vh;
@@ -118,4 +123,8 @@ a {
 }
 .content p:nth-child(2) {
   font-size: x-small;
+}
+.container-skills a {
+  text-decoration-line: none;
+  text-align: center;
 }
