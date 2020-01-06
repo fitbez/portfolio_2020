@@ -61,6 +61,7 @@ body {
   margin: 160px;
   font-size: 60px;
 }
+
 .btn {
   font-family: "Source Code Pro", monospace;
   margin: 20px;
@@ -130,7 +131,7 @@ body {
 }
 .about {
   margin: 40px;
-  width: 70%;
+  width: 50%;
   text-align: center;
   line-height: 1.5rem;
 }
@@ -298,5 +299,11 @@ span {
   .about-back a i,
   .skill-back a i {
     font-size: 20px;
+  }
+  .about {
+    width: 80%;
+  }
+  .skill {
+    width: 220px;
   }
 }
