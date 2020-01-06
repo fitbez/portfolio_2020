@@ -133,7 +133,10 @@ body {
   margin: 40px;
   width: 50%;
   text-align: center;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.075rem;
+  font-weight: 500;
+  font-family: "Gordita", sans-serif;
 }
 a {
   text-decoration: none;
@@ -300,8 +303,13 @@ span {
   .skill-back a i {
     font-size: 20px;
   }
+  .about-me {
+    margin-top: 40px;
+  }
   .about {
     width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
   }
   .skill {
     width: 220px;
