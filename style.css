@@ -11,7 +11,44 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
 }
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .home {
   height: 100vh;
   display: flex;
@@ -231,6 +268,8 @@ a {
 span {
   font-size: small;
 }
+
+/* Media */
 @media screen and (max-width: 768px) {
   body,
   .portfolio {
@@ -258,6 +297,6 @@ span {
   }
   .about-back a i,
   .skill-back a i {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
