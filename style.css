@@ -276,6 +276,7 @@ span {
 
 /* Contact */
 .contact {
+  margin-top: 25px;
   width: 360px;
   height: 80%;
   text-align: center;
@@ -334,6 +335,7 @@ span {
   border-radius: 5px;
   padding: 5px;
   margin-top: 5px;
+  resize: none;
 }
 #name:focus,
 #phone:focus,
