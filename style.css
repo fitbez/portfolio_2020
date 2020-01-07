@@ -274,6 +274,97 @@ span {
   font-size: small;
 }
 
+/* Contact */
+.contact {
+  margin-top: 25px;
+  width: 360px;
+  height: 80%;
+  text-align: center;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.info {
+  background: #000;
+  color: #fff;
+  padding: 8px;
+}
+.info h3 {
+  margin-top: 8px;
+}
+.info ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: small;
+}
+.info ul li {
+  margin-top: 10px;
+}
+.info ul li a {
+  color: #fff;
+}
+.info .sm a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.info .sm a:hover {
+  background: #fff;
+  color: #000;
+}
+.form {
+  padding: 30px;
+}
+.input {
+  padding: 10px;
+}
+#name,
+#phone,
+#email {
+  width: 180px;
+  height: 35px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px;
+}
+#message {
+  width: 250px;
+  height: 100px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  resize: none;
+}
+#name:focus,
+#phone:focus,
+#email:focus,
+#message:focus {
+  border: 1px solid #000;
+}
+#submit {
+  margin-top: 10px;
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 30px;
+  border-radius: 2.5px;
+}
+#submit:hover {
+  transition: 0.7s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #fff;
+  color: #000;
+}
+
 /* Media */
 @media screen and (max-width: 768px) {
   body,
@@ -315,63 +406,4 @@ span {
   .skill {
     width: 220px;
   }
-}
-/* Contact */
-.contact {
-  width: 360px;
-  height: 80%;
-  text-align: center;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
-}
-.info {
-  background: #000;
-  color: #fff;
-  padding: 50px;
-}
-.form {
-  padding: 30px;
-}
-.input {
-  padding: 10px;
-}
-#name,
-#phone,
-#email {
-  width: 180px;
-  height: 35px;
-  border: 1px solid #888;
-  border-radius: 5px;
-  padding: 5px;
-}
-#message {
-  width: 250px;
-  height: 100px;
-  border: 1px solid #888;
-  border-radius: 5px;
-  padding: 5px;
-  margin-top: 5px;
-}
-#name:focus,
-#phone:focus,
-#email:focus,
-#message:focus {
-  border: 1px solid #000;
-}
-#submit {
-  margin-top: 10px;
-  background: #000;
-  color: #fff;
-  border: none;
-  width: 120px;
-  height: 30px;
-  border-radius: 2.5px;
-}
-#submit:hover {
-  transition: 0.7s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background: #fff;
-  color: #000;
 }

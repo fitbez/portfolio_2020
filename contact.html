@@ -21,15 +21,40 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="skill-back">
+      <a href="portfolio.html" class="fill"
+        ><i class="far fa-hand-point-left"></i
+        ><i class=" fas fa-hand-point-left "></i
+      ></a>
+    </div>
+    <div class="skills">
+      <h2>Contact Me</h2>
+    </div>
     <div class="contact">
       <div class="info">
         <h3>Fitsum Belayneh</h3>
         <ul>
-          <li><i class="fas fa-envelope"></i> fitseneh@gmail.com</li>
-          <li><i class="fas fa-mobile-alt"></i> +1(919)895-1080</li>
+          <li>
+            <a href="mailto:fiteseneh@gmail.com"
+              ><i class="fas fa-envelope"></i> fitseneh@gmail.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+19198951080"
+              ><i class="fas fa-mobile-alt"></i> +1(919)895-1080</a
+            >
+          </li>
         </ul>
+        <div class="sm">
+          <a href="https://linkedin.com/in/fitsum-belayneh" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/fitbez" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
       </div>
-      <form action="" method="POST" class="form">
+      <form action="" method="POST" class="form" data-netlify="true">
         <div class="input">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" required />
@@ -46,6 +71,7 @@
           <label for="message">Leave me a message</label>
           <textarea type="text" name="message" id="message" required></textarea>
         </div>
+        <div data-netlify-recaptcha="true"></div>
         <div class="submit">
           <input type="submit" value="Submit" id="submit" />
         </div>
