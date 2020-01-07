@@ -288,7 +288,7 @@ span {
 .info {
   background: #000;
   color: #fff;
-  padding: 15px;
+  padding: 8px;
 }
 .info ul {
   margin-top: 10px;
@@ -296,7 +296,10 @@ span {
   font-size: small;
 }
 .info ul li {
-  margin-top: 5px;
+  margin-top: 10px;
+}
+.info ul li a {
+  color: #fff;
 }
 .info .sm a {
   display: inline-flex;
