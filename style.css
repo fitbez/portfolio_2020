@@ -274,48 +274,6 @@ span {
   font-size: small;
 }
 
-/* Media */
-@media screen and (max-width: 768px) {
-  body,
-  .portfolio {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .home {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .btn {
-    width: 120px;
-    height: 50px;
-    background: #000;
-    color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .about-back a i,
-  .skill-back a i {
-    font-size: 20px;
-  }
-  .about-me {
-    margin-top: 40px;
-  }
-  .about {
-    width: 80%;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  .skill {
-    width: 220px;
-  }
-}
 /* Contact */
 .contact {
   width: 360px;
@@ -329,7 +287,30 @@ span {
 .info {
   background: #000;
   color: #fff;
-  padding: 50px;
+  padding: 15px;
+}
+.info ul {
+  margin-top: 10px;
+  list-style: none;
+  font-size: small;
+}
+.info ul li {
+  margin-top: 5px;
+}
+.info .sm a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.info .sm a:hover {
+  background: #fff;
+  color: #000;
 }
 .form {
   padding: 30px;
@@ -374,4 +355,47 @@ span {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background: #fff;
   color: #000;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+  body,
+  .portfolio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    width: 120px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .about-back a i,
+  .skill-back a i {
+    font-size: 20px;
+  }
+  .about-me {
+    margin-top: 40px;
+  }
+  .about {
+    width: 80%;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .skill {
+    width: 220px;
+  }
 }
