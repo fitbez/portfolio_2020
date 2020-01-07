@@ -290,6 +290,9 @@ span {
   color: #fff;
   padding: 8px;
 }
+.info h3 {
+  margin-top: 8px;
+}
 .info ul {
   margin-top: 10px;
   list-style: none;
