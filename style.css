@@ -108,7 +108,7 @@ body {
 /* About */
 .about-back a i,
 .skill-back a i {
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 10px;
   font-size: 30px;
