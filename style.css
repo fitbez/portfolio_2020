@@ -312,7 +312,7 @@ span {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 28px;
   transition: 0.4s;
   border-radius: 50%;
 }
@@ -349,6 +349,9 @@ span {
 #email:focus,
 #message:focus {
   border: 1px solid #000;
+}
+#name {
+  margin-left: 10px;
 }
 #submit {
   margin-top: 10px;
