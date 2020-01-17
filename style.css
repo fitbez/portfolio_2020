@@ -216,7 +216,7 @@ a {
   margin-top: 20px;
   cursor: pointer;
   width: 340px;
-  height: 200px;
+  height: 191px;
   border-radius: 5px;
 }
 .front,
@@ -279,7 +279,7 @@ span {
 .contact {
   margin-top: 25px;
   width: 360px;
-  height: 90%;
+  height: 95%;
   text-align: center;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
