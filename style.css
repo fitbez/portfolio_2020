@@ -239,11 +239,12 @@ a {
   transform: perspective(600px) rotateY(0deg);
 }
 .back {
-  background: #fff;
+  background: #000;
+
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content {
-  color: #000;
+  color: #fff;
   text-align: center;
   width: 100%;
 }
@@ -260,10 +261,11 @@ a {
   font-size: 18px;
   transition: 0.4s;
   border-radius: 50%;
+  color: #fff;
 }
 .sm a:hover {
-  background: #000;
-  color: white;
+  background: #fff;
+  color: #000;
 }
 .card:hover > .front {
   transform: perspective(600px) rotateY(-180deg);
@@ -409,5 +411,8 @@ span {
   }
   .skill {
     width: 220px;
+  }
+  footer {
+    font-size: xx-small;
   }
 }
