@@ -239,7 +239,7 @@ a {
   transform: perspective(600px) rotateY(0deg);
 }
 .back {
-  background: #000;
+  background: #212121;
 
   transform: perspective(600px) rotateY(180deg);
 }
@@ -247,6 +247,10 @@ a {
   color: #fff;
   text-align: center;
   width: 100%;
+}
+.back-content h2 {
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 .sm {
   margin: 20px 0;
