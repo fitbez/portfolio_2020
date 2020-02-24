@@ -268,8 +268,8 @@ a {
   color: #212121;
 }
 .sm a:hover {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
 }
 .card:hover > .front {
   transform: perspective(600px) rotateY(-180deg);
