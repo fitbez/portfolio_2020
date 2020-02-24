@@ -239,12 +239,12 @@ a {
   transform: perspective(600px) rotateY(0deg);
 }
 .back {
-  background: #212121;
+  background: #fff;
 
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content {
-  color: #fff;
+  color: #212121;
   text-align: center;
   width: 100%;
 }
@@ -265,7 +265,7 @@ a {
   font-size: 18px;
   transition: 0.4s;
   border-radius: 50%;
-  color: #fff;
+  color: #212121;
 }
 .sm a:hover {
   background: #fff;
