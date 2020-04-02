@@ -45,13 +45,51 @@
         "https://cdn.oribi.io/Xy0xNjUwNzQyODI0/oribi.js",
         "ORIBI"
       );
+      (function() {
+        var css = document.createElement("link");
+        css.href = "https://use.fontawesome.com/releases/v5.1.0/css/all.css";
+        css.rel = "stylesheet";
+        css.type = "text/css";
+        document.getElementsByTagName("head")[0].appendChild(css);
+      })();
     </script>
   </head>
   <body>
+    <nav>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+        <ul class="drop-menu">
+          <li>
+            <a href="/home/" class="nav-link"> Home</a>
+          </li>
+          <li>
+            <a href="/about/" class="nav-link"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="/skills/" class="nav-link"
+              >Skill</a
+            >
+          </li>
+          <li>
+            <a href="/portfolio/" class="nav-link"
+              ></span>
+              Work</a
+            >
+          </li>
+          <li>
+            <a href="/contact/" class="nav-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="home">
       <h1>Fitsum Belayneh</h1>
       <h3>Full-Stack Web Developer</h3>
-      <a href="/about/" class="btn btn1">About Me</a>
+      <!-- <a href="/about/" class="btn btn1">About Me</a> -->
     </div>
     <footer>&copy;2020</footer>
   </body>
