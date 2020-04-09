@@ -80,18 +80,17 @@ ul.drop-menu li {
   position: relative;
   text-transform: uppercase;
   font-size: 14px;
-  background: white;
+  background: #333;
   cursor: pointer;
-  margin: 2px;
 }
 ul.drop-menu li:hover {
   z-index: 4;
   opacity: 0.7;
-  border: 2px solid #000;
+  background: #413f3f;
 }
 
 ul.drop-menu li a {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 
