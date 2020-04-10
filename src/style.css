@@ -54,6 +54,7 @@ body {
   position: relative;
 }
 .menu-btn {
+  width: 32px;
   position: absolute;
   z-index: 4;
   font-size: 32px;
