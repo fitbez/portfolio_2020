@@ -83,11 +83,11 @@ body {
   align-items: center;
   position: relative;
 }
-.home h1 {
+.main-home h1 {
   font-size: 4rem;
 }
 
-.home h3 {
+.main-home h3 {
   font-size: 1.5rem;
 }
 
