@@ -68,12 +68,11 @@ body {
 }
 
 .home {
-  min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .home h1 {
   font-size: 4rem;
