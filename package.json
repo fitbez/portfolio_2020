@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/fitbez/portfolio_2020#readme",
   "dependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^2.8.2"
   }
 }
